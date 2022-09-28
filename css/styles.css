@@ -1,0 +1,63 @@
+/* add your css styles here! */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Space mono', monospace;
+}
+.nav {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    padding: 20px 0;
+    background-color: #765354;
+}
+
+.heading-content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;;
+}
+.heading-content h5{
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Space mono', monospace;
+}
+
+.heading-content h1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Space mono', monospace;
+}
+
+/* about start */
+
+
+#about .btn {
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+color: #fff;
+text-decoration: none;
+font-size: 1em;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #B9AFA4;
+    cursor: pointer;
+    }
